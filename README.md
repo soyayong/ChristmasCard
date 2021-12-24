@@ -1,2 +1,2 @@
 # Christmas-card
-[CLike me](https://soyayong.github.io/ChristmasCard/)
+[Click me](https://soyayong.github.io/ChristmasCard/)
