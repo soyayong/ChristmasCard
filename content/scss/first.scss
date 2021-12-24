@@ -1,0 +1,190 @@
+.first {
+  background-color: #c4d9a4;
+
+  .cherry {
+    top: 3.4%;
+    right: 10%;
+  }
+
+  .box {
+    position: absolute;
+    top: 10.8%;
+    left: 33%;
+
+    .star {
+      z-index: 7;
+      top: 12%;
+      left: 33.5%;
+      opacity: 0;
+      animation: twinkle 3s linear infinite;
+    }
+
+    .star_2 {
+      top: 44%;
+      left: 31%;
+      animation-delay: 0.5s;
+    }
+
+    .star_3 {
+      top: 58%;
+      left: 41%;
+      animation-delay: 1s;
+    }
+
+    .star_4 {
+      top: 74%;
+      left: 20%;
+      animation-delay: 1.5s;
+    }
+
+    .tree {
+      z-index: 3;
+    }
+
+    .people {
+      position: absolute;
+      top: 30%;
+      right: 58.7%;
+      animation-delay: 1s;
+
+      .head {
+        top: -51%;
+        left: 4%;
+        animation: shake 3s linear infinite;
+        transform-origin: center bottom;
+      }
+    }
+
+    .mouse {
+      top: 26.2%;
+      left: 58.2%;
+      animation-delay: 1.2s;
+    }
+
+    .deer {
+      top: 63.2%;
+      right: 57.5%;
+      z-index: 8;
+      animation-delay: 1.4s;
+    }
+
+    .oldMan {
+      position: absolute;
+      top: 84.3%;
+      left: 35%;
+      z-index: 10;
+      animation-delay: 1.6s;
+
+      .leftHand {
+        left: -19%;
+        top: 22%;
+        animation: left 2s linear infinite;
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+      }
+
+      .rightHand {
+        right: -17%;
+        top: 24%;
+        animation: right 2s linear infinite;
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+      }
+    }
+  }
+
+  .logo {
+    top: 2.8%;
+    left: 6.7%;
+    z-index: 30;
+  }
+
+  .upwardBox {
+    right: 3.6%;
+    bottom: 2.5%;
+  }
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes left {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: none;
+  }
+
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes right {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.snowflake {
+  z-index: 20;
+  position: absolute;
+  display: block;
+  position: absolute;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-image: -webkit-radial-gradient(center, circle farthest-corner, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%);
+  background-image: -moz-radial-gradient(center, circle farthest-corner, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%);
+  background-image: -ms-radial-gradient(center, circle farthest-corner, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%);
+  background-image: radial-gradient(center, circle farthest-corner, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%);
+}
+
+#snow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

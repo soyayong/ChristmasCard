@@ -1,0 +1,209 @@
+.second {
+  background-color: #b9dbc6;
+}
+.second .logo {
+  top: 2.8%;
+  left: 6.7%;
+  width: 70px !important;
+  height: 70px !important;
+  border-radius: 50px;
+}
+.second .upwardBox {
+  top: 2.6%;
+  right: 3.5%;
+}
+.second .box {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  z-index: 99;
+}
+.second .box .wreath {
+  z-index: 10;
+}
+.second .box .oldMan {
+  bottom: 73.2%;
+  left: 15%;
+  z-index: 5;
+  -webkit-animation: waggle 6s linear infinite;
+          animation: waggle 6s linear infinite;
+  transform-origin: center bottom;
+}
+.second .box .cherry {
+  top: 25.6%;
+  right: -1%;
+  z-index: 101;
+}
+.second .box .cap {
+  top: 85.5%;
+  left: 45.6%;
+  z-index: 101;
+}
+.second .box .leaf {
+  z-index: 100;
+  -webkit-animation: wave 5s linear infinite;
+          animation: wave 5s linear infinite;
+}
+.second .box .leaf_1 {
+  top: 57%;
+  right: 84.1%;
+  transform-origin: right;
+}
+.second .box .leaf_2 {
+  top: 69.6%;
+  left: 45%;
+  transform-origin: center bottom;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.second .box .leaf_3 {
+  top: 57%;
+  left: 84.7%;
+  transform-origin: left;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.second .box .leaf_4 {
+  top: 19%;
+  left: 82.9%;
+  transform-origin: center bottom;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.second .box .leaf_5 {
+  top: 19%;
+  left: -1%;
+  transform-origin: center bottom;
+  z-index: 9;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+.second .box .title {
+  z-index: 200;
+}
+.second .box .st_title {
+  top: 36%;
+  transform: translateY(-50%);
+}
+.second .box .th_title {
+  top: 36.3%;
+  left: 10%;
+}
+.second .btoBox {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+.second .cloud {
+  bottom: 0;
+  z-index: 5;
+}
+.second .house {
+  bottom: 2.5%;
+  left: 1.1%;
+  z-index: 8;
+}
+.second .light {
+  bottom: 2.6%;
+  left: 1%;
+  z-index: 6;
+  opacity: 0;
+  -webkit-animation: twinkle 3s linear infinite;
+          animation: twinkle 3s linear infinite;
+}
+.second .lighter {
+  bottom: 2.5%;
+  left: 1%;
+  z-index: 9;
+  opacity: 0;
+  -webkit-animation: twinkle 3s linear infinite;
+          animation: twinkle 3s linear infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.second .bottomTree {
+  bottom: 0;
+  z-index: 10;
+}
+
+@-webkit-keyframes waggle {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes waggle {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+@-webkit-keyframes wave {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: rotate(-3deg);
+  }
+  75% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes wave {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: rotate(-3deg);
+  }
+  75% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+@-webkit-keyframes twinkle {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=second.css.map */
